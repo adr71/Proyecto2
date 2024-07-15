@@ -1,0 +1,165 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #282828;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.menu__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__header img {
+    width: 40px;
+    margin-left: -1050px;
+}
+
+.menu__list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+    margin-top: -30px;
+}
+
+.menu__list__item {
+    margin: 0 15px;
+}
+
+.menu__list__item a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.title {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.title__profile {
+    width: 170px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    float: right;
+}
+
+.title__bio {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.title__subsection {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.title__network {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.title__network__item {
+    margin: 0 10px;
+}
+
+.title__network__item a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.title__network__item img {
+    width: 15px;
+    margin-left: 5px;
+}
+
+.about, .academic  {
+    padding: 50px 20px;
+    background-color: #EAF2FD;
+    margin: 20px 0;
+}
+
+.skills, .hobbies, .experience{
+    padding: 50px 20px;
+    background-color: #F5F5F5;
+    margin: 20px 0;
+}
+
+.about__title, .skills__title, .hobbies__title, .academic__title, .experience__title {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about__paragraph {
+    color: #666;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skills__line, .hobbies__line, .academic__courses, .experience__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills__box, .hobbies__box, .academic__courses__box, .experience__box {
+    background-color: #f4f4f4;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1 1 200px;
+}
+
+.skills__box ul, .hobbies__box ul {
+    list-style: none; /* Agregado para quitar los bullet points */
+    padding: 0; /* Remueve el padding por defecto */
+}
+
+.skills__img, .hobbies__img, .academic__courses__item__img, .experience__img {
+    margin-bottom: 10px;
+}
+
+.skills__name, .hobbies__name, .academic__courses__item__title, .experience__name h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #282828;
+    color: #fff;
+}
+
+.footer__column {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.footer__column h3 {
+    margin-bottom: 10px;
+}
+
+.footer__column a {
+    color: #fff;
+    text-decoration: none;
+}
